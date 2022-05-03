@@ -1,0 +1,139 @@
+.project-container {
+  padding-block: 1.5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#border-bottom {
+  border-bottom: 3px solid var(--white-main);
+}
+
+.project-container__photo {
+  position: relative;
+}
+
+.project-container__photo:hover .project-container__photo__github::before {
+  content: "REPOSITORY LINK";
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  font-weight: bolder;
+  position: absolute;
+  top: -18px;
+}
+
+.project-container__photo:hover {
+  opacity: 0.7;
+}
+
+.project-container__photo.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.project-container__photo.left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.project-container__text__live-link {
+  font-size: 2.3em;
+  color: var(--white-main);
+  text-decoration: underline;
+  transition: letter-spacing 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.project-container__text__live-link:hover {
+  letter-spacing: 1px;
+}
+
+.project-container__text__technology {
+  font-size: 1em;
+  color: var(--white-main);
+  font-weight: 200;
+}
+
+.project-container__text__features-title {
+  font-weight: bold;
+  font-size: 2.3em;
+}
+
+.project-container__text__features {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.project-container__text.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: unset;
+}
+
+.project-container__text.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 1200px) {
+  .project-container {
+    grid-template-columns: 1fr;
+  }
+
+  .elipse {
+    display: none;
+  }
+
+  .project-container__photo.left {
+    justify-content: center;
+    padding-right: 1em;
+  }
+
+  .project-container__photo.right {
+    justify-content: center;
+    margin: 2em;
+  }
+
+  .project-container__text.right {
+    align-items: center;
+  }
+
+  .project-container__text.left {
+    align-items: center;
+  }
+
+  body {
+    overflow-y: visible;
+  }
+
+  .left {
+    justify-self: center;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .project-container__text__live-link {
+    font-size: 1.7em;
+  }
+
+  .photo {
+    width: 300px;
+  }
+
+  .project-container__text__technology {
+    font-size: 0.8em;
+  }
+
+  .project-container__text__features-title {
+    font-size: 1.8em;
+  }
+
+  .project-container__text__features {
+    font-size: 1em;
+
+    line-height: 1.4;
+  }
+}
