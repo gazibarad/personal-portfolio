@@ -20,7 +20,11 @@ const Home = () => {
             <span className="left-side__title__span">website.</span>
           </h1>
           <p>Frontend developer & web designer</p>
-          <a className="left-side__button" href="/">
+          <a
+            className="left-side__button"
+            href="https://gazibarad.pages.dev/about"
+            rel="noreferrer"
+          >
             LEARN MORE
           </a>
         </div>
