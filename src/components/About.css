@@ -54,7 +54,15 @@
   max-height: 600px;
 }
 
-@media only screen and (max-width: 1050px) {
+.social-image {
+  transition: transform 0.4s linear;
+}
+
+.social-image:hover {
+  transform: scale(0.9);
+}
+
+@media only screen and (max-width: 1023px) {
   .about-container {
     grid-template-columns: 1fr;
   }

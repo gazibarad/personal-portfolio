@@ -2,9 +2,13 @@
 
 :root {
   --orange-main: #e3673f;
-  --white-main: #fdfdfd;
+  --white-main: #faf6f6;
   --orange-accent: #ffb59d;
   --yellow-main: #ebff9d;
+}
+
+::selection {
+  background-color: #040404a5;
 }
 
 * {
@@ -27,18 +31,15 @@ body {
   font-family: "Noto Sans", sans-serif;
   color: var(--white-main);
   overflow: hidden;
-  height: 100%;
 }
 
 #root {
   max-width: 1400px;
   margin: 0 auto;
-  height: 100%;
 }
 
 .app {
   margin-inline: 100px;
-  height: 100%;
 }
 
 .elipse {
