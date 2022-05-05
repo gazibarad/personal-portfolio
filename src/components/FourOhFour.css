@@ -1,0 +1,23 @@
+#svg-container {
+  margin-block: 2em;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+#moving {
+  animation: moving infinite linear 2s;
+}
+
+@keyframes moving {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(40px);
+    transform-origin: rotate(180deg);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
