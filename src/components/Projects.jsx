@@ -14,7 +14,7 @@ const Projects = () => {
               rel="noreferrer"
               className="project-container__photo__github"
               target="_blank"
-              href="https://github.com/gazibarad/tabata"
+              href="https://github.com/gazibarad/interval-timer"
             >
               <img className="photo" src={tabatapng} alt="HIIT Timer" />
             </a>

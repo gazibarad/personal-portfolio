@@ -1,7 +1,7 @@
 import linkedin from "../assets/linkedin.svg";
 import email from "../assets/Mail.svg";
 import discord from "../assets/Discord.svg";
-import fromidea from "../assets/fromidea.png";
+import fromidea from "../assets/fromidea2.0.png";
 
 import AnimatedContainer from "./AnimatedContainer";
 
@@ -46,7 +46,7 @@ const About = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/dino-gazibara-66b187238/"
+                href="https://www.linkedin.com/in/dino-gazibara/"
               >
                 <img className="social-image" src={linkedin} alt="linkedin" />
               </a>
