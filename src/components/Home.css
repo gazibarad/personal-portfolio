@@ -23,10 +23,6 @@
 }
 
 .left-side__button {
-  border: none;
-}
-
-.left-side__button {
   background-color: var(--white-main);
   text-align: center;
   color: var(--orange-main);
@@ -37,6 +33,12 @@
   padding: 1.5em 2em;
   margin-top: 2.5em;
   width: 50%;
+  border: none;
+  transition: transform 0.2s linear;
+}
+
+.left-side__button:hover {
+  transform: scale(0.98);
 }
 
 .left-side__title__underline-svg {

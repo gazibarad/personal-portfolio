@@ -57,6 +57,19 @@
   background-color: var(--orange-accent);
   border-radius: 12px;
   font-weight: bold;
+  transition: transform 0.2s linear;
+}
+
+.contact-btn:hover {
+  transform: scale(0.98);
+}
+
+.github-btn {
+  transition: transform 0.2s linear;
+}
+
+.github-btn:hover {
+  transform: scale(0.98);
 }
 
 @media only screen and (max-width: 1350px) {

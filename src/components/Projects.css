@@ -10,6 +10,7 @@
 
 .project-container__photo {
   position: relative;
+  transition: all 0.2s linear;
 }
 
 .project-container__photo:hover .project-container__photo__github::before {
@@ -41,11 +42,11 @@
   font-size: 2.3em;
   color: var(--white-main);
   text-decoration: underline;
-  transition: letter-spacing 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.2s linear;
 }
 
 .project-container__text__live-link:hover {
-  letter-spacing: 1px;
+  color: var(--yellow-main);
 }
 
 .project-container__text__technology {
