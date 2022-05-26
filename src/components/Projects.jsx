@@ -1,5 +1,5 @@
 import tabatapng from "../assets/tabataoranje.png";
-import weatherpng from "../assets/weatheroranje.png";
+import weatherpng from "../assets/desktop.jpg";
 import AnimatedContainer from "./AnimatedContainer";
 
 import "./Projects.css";
@@ -50,22 +50,25 @@ const Projects = () => {
               rel="noreferrer"
               className="project-container__text__live-link"
               target="_blank"
-              href="https://reactweather.pages.dev/"
+              href="https://gdweather.pages.dev/"
             >
               Weather API - Live
             </a>
-            <p className="project-container__text__technology">React.js</p>
+            <p className="project-container__text__technology">
+              React.js | Tailwind CSS
+            </p>
             <br />
             <h1 className="project-container__text__features-title">
               Some Features:
             </h1>
             <p className="project-container__text__features">
-              -router, state, effect
+              -redux toolkit and redux-saga
             </p>
-            <p className="project-container__text__features">-fetch</p>
-            <p className="project-container__text__features">-framer motion</p>
             <p className="project-container__text__features">
-              -passing props up and down
+              -Tailwind CSS mobile first development
+            </p>
+            <p className="project-container__text__features">
+              -geolocation or user input
             </p>
           </div>
           <div className="project-container__photo right">
